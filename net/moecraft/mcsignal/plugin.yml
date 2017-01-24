@@ -1,0 +1,11 @@
+name: MineCraftSignal
+main: net.moecraft.mcsignal.MCSignal
+version: 1.0
+commands:
+  mcsignal:
+      description: MineCraft Signal Help and Status
+      usage: /weblogin [action]
+permissions:
+    moecraft.weblogin.command:
+        description: Allows someone use /mcsignal
+        default: op

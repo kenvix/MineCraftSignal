@@ -1,0 +1,29 @@
+# MineCraft Signal By Kenvix @ MoeCraft
+# Blog: http://kenvix.com
+# MoeCraft: http://www.moecraft.net
+# ------------------------------------------------
+# Permissions:
+# moecraft.mcsignal.command Allows someone use /mcsignal
+# ------------------------------------------------
+# Get Chinese version from my blog or mcbbs :)
+
+#Signals you want to handle
+#For Linux: SEGV, ILL, FPE, BUS, SYS, CPU, FSZ, ABRT, INT, TERM, HUP, USR1, USR2, QUIT, BREAK, TRAP, PIPE
+#For Windows: SEGV, ILL, FPE, ABRT, INT, TERM, BREAK
+handle:
+   - USR2
+   - INT
+#(Linux) If you want to send a USR1 signal to minecraft server, you can use "pkill -SIGUSR1 java" or "kill -s SIGUSR1 MC-PID-HERE"
+
+# Commands.
+# For SIGUSR1 Signal. Linux Only
+SIGUSR2:
+   - 'killall Guys, Server will shutdown now'
+   - 'stop'
+
+# For SIGINT Signal.(Ctrl+C) Windows and Linux.
+SIGINT:
+   - 'killall Guys, Server will shutdown now'
+   - 'stop'
+
+# ...MORE
