@@ -14,7 +14,7 @@ For example, you can define "SIGUSR1" for "/stop" command in order to stop serve
 Github:https://github.com/kenvix/MineCraftSignal/blob/master/out/artifacts/minecraft-signal/minecraft-signal.jar        
 ## Git Repository:
 Github:https://github.com/kenvix/MineCraftSignal        
-#Other
+# Other
 My Blog: http://kenvix.com           
 
 MoeCraft：https://www.moecraft.net         
